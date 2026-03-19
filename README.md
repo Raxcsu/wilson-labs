@@ -22,5 +22,4 @@ Pipeline-to-pharma strategy, pharmacokinetic and pharmacodynamic exploration, an
 **Oscar Castro** — Head of AI/ML
 Data compilation, modelling, and AI-driven compound prediction. Building the discovery engine.
 
-
 © 2026 Wilson Labs. All rights reserved.
