@@ -10,7 +10,7 @@ import { Roadmap } from "@/components/sections/Roadmap";
 import { CTA } from "@/components/sections/CTA";
 import { Footer } from "@/components/sections/Footer";
 
-const BOOKING_URL = "https://calendar.google.com/calendar/appointments/schedules/AcZssZ00MSlvWswVDSx3R6_qvSgAYVKrQSDDKfTKGGZPHh-HI8MkZHJXtDUQaTh_hVRqNurS8m1NRIDg";
+const BOOKING_URL = "https://calendar.app.google/HgWsbGZrapY4Cex39";
 
 const Index = () => {
   const openBooking = () => window.open(BOOKING_URL, "_blank");
