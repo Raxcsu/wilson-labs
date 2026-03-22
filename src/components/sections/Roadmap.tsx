@@ -1,10 +1,17 @@
 import { motion } from "framer-motion";
 
+// const phases = [
+//   { phase: "Phase 1", title: "Marine Genomic Data Platform", timeline: "2026 – 2027", desc: "eDNA collection infrastructure, metabolomics database, and initial AI model training on proprietary marine datasets." },
+//   { phase: "Phase 2", title: "AI Discovery Engine", timeline: "2027 – 2028", desc: "Scaled transformer models for compound prediction, automated hit-to-lead optimization, and target deconvolution." },
+//   { phase: "Phase 3", title: "Synthetic Biology Manufacturing", timeline: "2028 – 2029", desc: "Engineered microbial strains for scalable production of validated marine-derived therapeutic compounds." },
+//   { phase: "Phase 4", title: "Pharma Partnerships", timeline: "2029+", desc: "IND-enabling studies, co-development agreements, and licensing deals with major pharmaceutical partners." },
+// ];
+
 const phases = [
-  { phase: "Phase 1", title: "Marine Genomic Data Platform", timeline: "2026 – 2027", desc: "eDNA collection infrastructure, metabolomics database, and initial AI model training on proprietary marine datasets." },
-  { phase: "Phase 2", title: "AI Discovery Engine", timeline: "2027 – 2028", desc: "Scaled transformer models for compound prediction, automated hit-to-lead optimization, and target deconvolution." },
-  { phase: "Phase 3", title: "Synthetic Biology Manufacturing", timeline: "2028 – 2029", desc: "Engineered microbial strains for scalable production of validated marine-derived therapeutic compounds." },
-  { phase: "Phase 4", title: "Pharma Partnerships", timeline: "2029+", desc: "IND-enabling studies, co-development agreements, and licensing deals with major pharmaceutical partners." },
+  { phase: "Phase 1", title: "Marine Genomic Data Platform", desc: "eDNA collection infrastructure, metabolomics database, and initial AI model training on proprietary marine datasets." },
+  { phase: "Phase 2", title: "AI Discovery Engine", desc: "Scaled transformer models for compound prediction, automated hit-to-lead optimization, and target deconvolution." },
+  { phase: "Phase 3", title: "Synthetic Biology Manufacturing", desc: "Engineered microbial strains for scalable production of validated marine-derived therapeutic compounds." },
+  { phase: "Phase 4", title: "Pharma Partnerships", desc: "IND-enabling studies, co-development agreements, and licensing deals with major pharmaceutical partners." },
 ];
 
 export const Roadmap = () => {
@@ -36,7 +43,6 @@ export const Roadmap = () => {
               >
                 <div className="relative">
                   <span className="font-mono text-xs text-accent">{p.phase}</span>
-                  <p className="text-sm text-muted-foreground mt-1">{p.timeline}</p>
                 </div>
                 <div className="md:col-span-3">
                   <h3 className="mb-2 text-lg font-medium text-foreground">{p.title}</h3>

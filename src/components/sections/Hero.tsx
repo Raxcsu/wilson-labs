@@ -18,7 +18,7 @@ export const Hero = ({ onPartnerClick }: { onPartnerClick?: () => void }) => {
           transition={{ duration: 0.8, ease: [0.2, 0, 0, 1] }}
         >
           <span className="inline-block px-3 py-1 mb-6 text-xs font-mono tracking-widest uppercase border border-accent/20 text-accent bg-accent/5">
-            Platform v1.0 — Marine Metabolomics
+            Platform v1.0 — Marine Multiomics
           </span>
           <h1 className="max-w-4xl mx-auto mb-8 text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground text-balance">
             The ocean is the world's largest{" "}

@@ -8,7 +8,7 @@ export const Footer = () => {
             <span className="font-mono text-xs tracking-wider text-foreground">Wilson Labs</span>
           </div>
           <p className="font-mono text-xs text-muted-foreground">
-            contact@wilsonlabs.bio
+            contactwilsonlabs@gmail.com
           </p>
           <p className="font-mono text-xs text-muted-foreground">
             © 2026 Wilson Labs. All rights reserved.

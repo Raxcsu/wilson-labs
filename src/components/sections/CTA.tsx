@@ -17,7 +17,7 @@ export const CTA = ({ onPartnerClick }: { onPartnerClick?: () => void }) => {
             Accelerating the ocean's therapeutic potential.
           </h2>
           <p className="text-muted-foreground mb-10 max-w-xl mx-auto">
-            We partner with investors, pharmaceutical companies, and research institutions to advance marine-derived medicines.
+            We partner with investors, pharmaceutical companies, research institutions and conservation organisations to advance marine-derived medicines.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
